@@ -1,0 +1,953 @@
+/*
+ * General overwritten styles
+ */
+#wiki_page_show h2 { font-size: 180%; font-weight: 300 !important; margin: 0px 0px 5px 0px; padding: 0px !important; line-height: 1 !important; }
+#wiki_page_show h3 { font-size: 150%; font-weight: 300 !important; margin: 0px 0px 5px 0px; padding: 0px !important; line-height: 1 !important; }
+#wiki_page_show h4 { font-size: 120%; font-weight: 300 !important; margin: 10px 0px 5px 0px !important; padding: 0px !important; line-height: 1 !important; }
+
+#wiki_page_show p { margin: 0px 0px 15px 0px !important; max-width: 600px; }
+#wiki_page_show li { max-width: 600px; padding: 0 0 10px 0; font-size: 100%; }
+
+#wiki_page_show a:link { text-decoration: none !important; }
+
+#right-page-column {
+	float: right;
+}
+
+
+#discussion_container article {
+	overflow: inherit !important;
+	pointer-events: all !important;
+}
+
+#right-page-column-with-forms {
+	pointer-events: all !important;
+	float: right;
+	margin-top: - 100px !important;
+	margin-right: -200px !important;
+	z-index: 3000 !important;
+}
+
+/*
+ * Flexphil specific styles
+ */
+.module-listing { margin-top: 10px; }
+.module-listing p { max-width: 600px !important; font-size: 90%; } 
+.module-listing img { padding: 0 10px 10px 0 !important; height: 120px; }
+.module-listing div { display: block !important; clear: both; margin-bottom: 20px; }
+.module-listing h2 { font-weight: 300 !important; }
+.module-listing h3 { margin: 0Px 0 2px 0 !important; padding: 0px !important; font-weight: 400 !important; }
+.module-listing h4 { margin: 0px !important; padding: 0px !important; font-size: 12px !important; font-weight: 500 !important; }
+
+.float-left { float: left; }
+.float-right { float: right; }
+
+.padding-10px-right { padding-right: 10px !important; }
+.padding-10px-left { padding-left: 10px !important; }
+
+
+/*
+ * MMHR specific styles
+ */
+.mmhr-front-page-logo {
+	padding: 0px !important;
+	max-width: 600px;
+}
+
+.mmhr-module-menu {
+	float: right;
+	/* margin-right: 200px !important; */
+	margin-left: 10px !important;
+}
+
+ul.mmhr-module-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #fafafa;
+	font-size: 110%;
+	border: 1px solid #d1d1d1;
+	border-radius: 3px;
+}
+
+.mmhr-module-menu li a {
+  display: block;
+  color: #555;
+  padding: 3px 0 3px 16px !important;
+  text-decoration: none;
+}
+
+.mmhr-module-menu li a:hover {
+  background-color: #ddd;
+  color: #000;
+	padding: 3px 0 3px 16px !important;
+}
+
+.mmhr-module-menu li {
+	padding: 0px !important;
+	text-align: left;
+	border-bottom: 1px solid #fff;
+}
+
+.mmhr-module-menu li:last-child {
+	border-bottom: none;
+}
+
+.mmhr-module-menu .module-home-week-01 a {
+	font-weight: 300;
+	font-size: 1px;
+	padding: 0px !important;
+	margin: 0px !important;
+	color: #fff !important;
+	height: 100px !important;
+	width: 250px;
+	background: url("https://www.usit.uio.no/om/organisasjon/uav/dml/aktiviteter/DML%20Video/human-rights-and-mass-migration/image/home-icon-01.svg") no-repeat;
+	background-size: 250px 200px;
+}
+.mmhr-module-menu .module-home-week-01 a:hover {
+	background: url("https://www.usit.uio.no/om/organisasjon/uav/dml/aktiviteter/DML%20Video/human-rights-and-mass-migration/image/home-icon-01.svg") no-repeat;
+	color: #fff;
+	padding: 0px !important;
+	margin: 0px !important;
+	background-size: 250px 200px;
+	background-position: 0 -100px;
+}
+
+.mmhr-module-menu .module-home-week-02 a {
+	font-weight: 300;
+	font-size: 1px;
+	padding: 0px !important;
+	margin: 0px !important;
+	color: #fff !important;
+	height: 100px !important;
+	width: 250px;
+	background: url("https://www.usit.uio.no/om/organisasjon/uav/dml/aktiviteter/DML%20Video/human-rights-and-mass-migration/image/home-icon-02.svg") no-repeat;
+	background-size: 250px 200px;
+}
+.mmhr-module-menu .module-home-week-02 a:hover {
+	background: url("https://www.usit.uio.no/om/organisasjon/uav/dml/aktiviteter/DML%20Video/human-rights-and-mass-migration/image/home-icon-02.svg") no-repeat;
+	color: #fff;
+	padding: 0px !important;
+	margin: 0px !important;
+	background-size: 250px 200px;
+	background-position: 0 -100px;
+}
+
+.mmhr-module-menu .module-home-week-03 a {
+	font-weight: 300;
+	font-size: 1px;
+	padding: 0px !important;
+	margin: 0px !important;
+	color: #fff !important;
+	height: 100px !important;
+	width: 250px;
+	background: url("https://www.usit.uio.no/om/organisasjon/uav/dml/aktiviteter/DML%20Video/human-rights-and-mass-migration/image/home-icon-03.svg") no-repeat;
+	background-size: 250px 200px;
+}
+.mmhr-module-menu .module-home-week-03 a:hover {
+	background: url("https://www.usit.uio.no/om/organisasjon/uav/dml/aktiviteter/DML%20Video/human-rights-and-mass-migration/image/home-icon-03.svg") no-repeat;
+	color: #fff;
+	padding: 0px !important;
+	margin: 0px !important;
+	background-size: 250px 200px;
+	background-position: 0 -100px;
+}
+
+.mmhr-module-menu .module-home-week-04 a {
+	font-weight: 300;
+	font-size: 1px;
+	padding: 0px !important;
+	margin: 0px !important;
+	color: #fff !important;
+	height: 100px !important;
+	width: 250px;
+	background: url("https://www.usit.uio.no/om/organisasjon/uav/dml/aktiviteter/DML%20Video/human-rights-and-mass-migration/image/home-icon-04.svg") no-repeat;
+	background-size: 250px 200px;
+}
+.mmhr-module-menu .module-home-week-04 a:hover {
+	background: url("https://www.usit.uio.no/om/organisasjon/uav/dml/aktiviteter/DML%20Video/human-rights-and-mass-migration/image/home-icon-04.svg") no-repeat;
+	color: #fff;
+	padding: 0px !important;
+	margin: 0px !important;
+	background-size: 250px 200px;
+	background-position: 0 -100px;
+}
+
+.mmhr-module-menu li.active-mmhr-menu-item {
+	padding: 3px 0px 3px 16px !important;
+	background-color: #444 !important;
+	color: white !important;
+}
+
+/* MODULE LISTINGS */
+.mmhr-module-listing-lists {
+	margin-left: 10px;
+}
+ul.mmhr-module-listing-lists {
+	margin: 10px !important;
+	padding: 0px 10px 10px 20px;
+	font-style: italic;
+	list-style: none; 
+}
+.mmhr-module-listing-lists li {
+	padding: 0 !important;
+	color: #fff;
+}
+
+
+#mmhr-module-listing {
+	max-width: 640px;
+	image-rendering: auto;
+}
+
+#mmhr-module-listing .week-block {
+	min-height: 100px;
+	margin: 8px 10px 0px 110px;
+	padding-bottom: 1px;
+}
+
+#mmhr-module-listing .week-block h2 {
+	padding: 10px 10px 0px 10px !important;
+	margin-bottom: 0px !important;
+}
+#mmhr-module-listing .week-block h2 a {
+	color: #fff;
+	text-decoration: none;
+}
+#mmhr-module-listing .week-block h2 a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#mmhr-module-listing .week-block h3 {
+	padding: 10px !important;
+	margin-bottom: 0px !important;
+	color: #fff;
+}
+
+#mmhr-module-listing p {
+	color: #fff;
+	padding: 0 10px 0px 10px !important;
+	margin: 0 !important;
+}
+
+#mmhr-module-listing #week-01 .week-block {
+	background: url(https://www.usit.uio.no/om/organisasjon/uav/dml/aktiviteter/DML%20Video/human-rights-and-mass-migration/image/week-01-boxleft.svg) 0 0 no-repeat;
+	background-color: #6ab137;
+}
+
+#mmhr-module-listing #week-02 .week-block {
+	background: url(https://www.usit.uio.no/om/organisasjon/uav/dml/aktiviteter/DML%20Video/human-rights-and-mass-migration/image/week-02-boxleft.svg) 0 0 no-repeat;
+	background-color: #0068ae;
+}
+
+#mmhr-module-listing #week-03 .week-block {
+	background: url(https://www.usit.uio.no/om/organisasjon/uav/dml/aktiviteter/DML%20Video/human-rights-and-mass-migration/image/week-03-boxleft.svg) 0 0 no-repeat;
+	background-color: #f68223;
+}
+#mmhr-module-listing #week-04 .week-block {
+	background: url(https://www.usit.uio.no/om/organisasjon/uav/dml/aktiviteter/DML%20Video/human-rights-and-mass-migration/image/week-04-boxleft.svg) 0 0 no-repeat;
+	background-color: #b31116;
+}
+
+#mmhr-module-listing #week-01 ul {
+	/*background-color: #ebec75;*/
+}
+
+#mmhr-module-listing #week-01 {
+	padding-top: 1px;
+	background: url("https://www.usit.uio.no/om/organisasjon/uav/dml/aktiviteter/DML%20Video/human-rights-and-mass-migration/image/week-01-bgr.svg") 0 0 no-repeat;
+	background-size: 100px 100px;
+}
+
+#mmhr-module-listing #week-02 ul {
+	/*background-color: #8bd0e8;*/
+}
+#mmhr-module-listing #week-02 {
+	padding-top: 1px;
+	background: url("https://www.usit.uio.no/om/organisasjon/uav/dml/aktiviteter/DML%20Video/human-rights-and-mass-migration/image/week-02-bgr.svg") 0 0 no-repeat;
+	background-size: 100px 100px;
+}
+
+#mmhr-module-listing #week-03 ul {
+	/*background-color: #ffe46f;*/
+}
+#mmhr-module-listing #week-03 {
+	padding-top: 1px;
+	background: url("https://www.usit.uio.no/om/organisasjon/uav/dml/aktiviteter/DML%20Video/human-rights-and-mass-migration/image/week-03-bgr.svg") 0 0 no-repeat;
+	background-size: 100px 100px;
+}
+
+#mmhr-module-listing #week-04 ul {
+	/*background-color: #f48d7f;*/
+}
+#mmhr-module-listing #week-04 {
+	padding-top: 1px;
+	background: url("https://www.usit.uio.no/om/organisasjon/uav/dml/aktiviteter/DML%20Video/human-rights-and-mass-migration/image/week-04-bgr.svg") 0 0 no-repeat;	
+	background-size: 100px 100px;
+}
+
+
+#mmhr-resources-page {
+	background-image: url(https://www.usit.uio.no/om/organisasjon/uav/dml/aktiviteter/DML%20Video/human-rights-and-mass-migration/image/mmhr-resources-bgr.svg);
+	background-repeat: repeat-y;
+	width: 600px;
+}
+#mmhr-resources-page h2 {
+	padding-bottom: 5px !important;
+}
+#mmhr-resources-page h3, #mmhr-resources-page h4 {
+	font-weight: 400 !important;
+	color: #000 !important;
+}
+
+ul.mmhr-resources-listing {
+	display: inline !important;
+	clear: both;
+}
+.mmhr-resources-listing li {
+	float: left !important;
+	list-style-type: none !important;
+	padding: 10px 20px 0 55px !important;
+	min-height: 50px;
+}
+.mmhr-resources-listing .week-01 {
+	background: url("https://www.usit.uio.no/om/organisasjon/uav/dml/aktiviteter/DML%20Video/human-rights-and-mass-migration/image/week-01-bgr.svg") 0 0 no-repeat;	
+	background-size: 50px 50px;
+}
+.mmhr-resources-listing .week-02 {
+	background: url("https://www.usit.uio.no/om/organisasjon/uav/dml/aktiviteter/DML%20Video/human-rights-and-mass-migration/image/week-02-bgr.svg") 0 0 no-repeat;	
+	background-size: 50px 50px;
+}
+.mmhr-resources-listing .week-03 {
+	background: url("https://www.usit.uio.no/om/organisasjon/uav/dml/aktiviteter/DML%20Video/human-rights-and-mass-migration/image/week-03-bgr.svg") 0 0 no-repeat;	
+	background-size: 50px 50px;
+}
+.mmhr-resources-listing .week-04 {
+	background: url("https://www.usit.uio.no/om/organisasjon/uav/dml/aktiviteter/DML%20Video/human-rights-and-mass-migration/image/week-04-bgr.svg") 0 0 no-repeat;	
+	background-size: 50px 50px;
+}
+
+.mmhr-resources-heading-week-1 {
+	border-bottom: 5px solid #6ab137;
+	max-width: 600px;
+	color: #6ab137;
+	clear: both;
+}
+
+.mmhr-resources-heading-week-2 {
+	border-bottom: 5px solid #006baf;
+	max-width: 600px;
+	color: #006baf;
+}
+
+.mmhr-resources-heading-week-3 {
+	border-bottom: 5px solid #f28329;
+	max-width: 600px;
+	color: #f28329;
+}
+
+.mmhr-resources-heading-week-4 {
+	border-bottom: 5px solid #b31116;
+	max-width: 600px;
+	color: #b31116;
+}
+
+/*
+ * KUPP specific styles
+ */
+.module-listing-kupp { margin-top: 10px; }
+.module-listing-kupp p { max-width: 600px !important; margin-top: 0px !important; padding-top: 0px !important; } 
+.module-listing-kupp img { padding: 0 10px 10px 0 !important; height: 120px; width: 200px; }
+.module-listing-kupp div { display: block !important; clear: both; margin-bottom: 20px; }
+.module-listing-kupp h2 { color: #555; font-weight: 200 !important; }
+.module-listing-kupp h3 { color: #444; margin: 0px 0px 5px 0px !important; padding: 0px !important; font-weight: 300 !important; line-height: 1 !important; }
+.module-listing-kupp h4 { color: #444; margin: 0px 0px 5px 0px !important; padding: 0px !important; font-weight: 400 !important; line-height: 1 !important; font-size: 12px !important; }
+
+.person-listing-kupp { margin-top: 10px; }
+.person-listing-kupp p { max-width: 650px !important; margin-top: 0px !important; padding-top: 0px !important; } 
+.person-listing-kupp img { padding: 0 10px 10px 0 !important; height: 200px; width: 150px; }
+.person-listing-kupp div { display: block !important; clear: both; margin-bottom: 20px; }
+.person-listing-kupp h2 { color: #555; margin: 30px 0px 5px 0px !important; font-weight: 200 !important; clear: both !important; font-size: 180% !important; }
+.person-listing-kupp h3 { color: #444; margin: 10px 0px 5px 0px !important; padding: 0px !important; font-weight: 300 !important; line-height: 1 !important; font-size: 150% !important; }
+.person-listing-kupp h4 { color: #444; margin: 0px 0px 5px 0px !important; padding: 0px !important; font-weight: 400 !important; line-height: 1 !important; font-size: 100% !important; }
+
+.page-title { margin: 0px 0px 5px 0px !important; padding: 0px !important; display: inline !important; }
+
+.lesson-menu-block {
+	background-color: #efefef;
+	border: 1px solid #ccc;
+}
+
+.module-00-topbar {
+	height: 10px;
+	width: 100%;
+	background: #e70; /* for non-css3 browsers */
+	background: -o-linear-gradient(right, #e87400, #ead911); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #e87400, #ead911); /* for firefox 3.6+ */
+	background: -webkit-gradient(linear, right , left, from(#e87400), to(#ead911)); /* for webkit browsers */
+	background: linear-gradient(to left, #e87400 , #ead911); /* Standard syntax */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e87400', endColorstr='#ead911'); /* for IE */
+	margin-bottom: 10px;
+}
+
+.module-01-topbar {
+	height: 10px;
+	width: 100%;
+	background: #d00; /* for non-css3 browsers */
+	background: -o-linear-gradient(right, #dc0000, #ff7f76); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #dc0000, #ff7f76); /* for firefox 3.6+ */
+	background: linear-gradient(to left, #dc0000 , #ff7f76); /* Standard syntax */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dc0000', endColorstr='#ff7f76'); /* for IE */	
+	margin-bottom: 10px;
+}
+
+.module-02-topbar {
+	height: 10px;
+	width: 100%;
+	background: #f1d; /* for non-css3 browsers */
+	background: -o-linear-gradient(right, #a900a9, #ff15d2); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #a900a9, #ff15d2); /* for firefox 3.6+ */
+	background: -webkit-gradient(linear, right , left, from(#a900a9), to(#ff15d2)); /* for webkit browsers */
+	background: linear-gradient(to left, #a900a9 , #ff15d2); /* Standard syntax */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a900a9', endColorstr='#ff15d2'); /* for IE */
+	margin-bottom: 10px;
+}
+
+.module-03-topbar {
+	height: 10px;
+	width: 100%;
+	background: #303; /* for non-css3 browsers */
+	background: -o-linear-gradient(right, #340135, #96047c); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #340135, #96047c); /* for firefox 3.6+ */
+	background: -webkit-gradient(linear, right , left, from(#340135), to(#96047c)); /* for webkit browsers */
+	background: linear-gradient(to left, #340135 , #96047c); /* Standard syntax */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#340135', endColorstr='#96047c'); /* for IE */
+	margin-bottom: 10px;
+}
+
+.module-04-topbar {
+	height: 10px;
+	width: 100%;
+	background: #00c; /* for non-css3 browsers */
+	background: -o-linear-gradient(right, #0000c6, #84b7ff); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #0000c6, #84b7ff); /* for firefox 3.6+ */
+	background: -webkit-gradient(linear, right , left, from(#0000c6), to(#84b7ff)); /* for webkit browsers */
+	background: linear-gradient(to left, #0000c6 , #84b7ff); /* Standard syntax */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000c6', endColorstr='#84b7ff'); /* for IE */
+	margin-bottom: 10px;
+}
+
+.module-05-topbar {
+	height: 10px;
+	width: 100%;
+	background: #078; /* for non-css3 browsers */
+	background: -o-linear-gradient(right, #02728b, #05c9ce); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #02728b, #05c9ce); /* for firefox 3.6+ */
+	background: -webkit-gradient(linear, right , left, from(#02728b), to(#05c9ce)); /* for webkit browsers */
+	background: linear-gradient(to left, #02728b , #05c9ce); /* Standard syntax */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#02728b', endColorstr='#05c9ce'); /* for IE */
+	margin-bottom: 10px;
+}
+
+.module-06-topbar {
+	height: 10px;
+	width: 100%;
+	background: #080; /* for non-css3 browsers */
+	background: -o-linear-gradient(right, #078902, #60dd07); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #078902, #60dd07); /* for firefox 3.6+ */
+	background: -webkit-gradient(linear, right , left, from(#078902), to(#60dd07)); /* for webkit browsers */
+	background: linear-gradient(to left, #078902 , #60dd07); /* Standard syntax */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#078902', endColorstr='#60dd07'); /* for IE */
+	margin-bottom: 10px;
+}
+
+.module-07-topbar {
+	height: 10px;
+	width: 100%;
+	background: #080; /* for non-css3 browsers */
+	background: -o-linear-gradient(right, #b7b208, #fff64d); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #b7b208, #fff64d); /* for firefox 3.6+ */
+	background: -webkit-gradient(linear, right , left, from(#b7b208), to(#fff64d)); /* for webkit browsers */
+	background: linear-gradient(to left, #b7b208 , #fff64d); /* Standard syntax */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b7b208', endColorstr='#fff64d'); /* for IE */
+	margin-bottom: 10px;
+}
+
+.oppgaveboks {
+	border: 1px solid #84949f;
+	border-radius: 5px;
+	max-width: 600px;
+	font-size: 90%;
+	background: #eee; /* for non-css3 browsers */
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#ddd'); /* for IE */
+	background: -webkit-gradient(linear, bottom , top, from(#fafafa), to(#ddd)); /* for webkit browsers */
+	background: -moz-linear-gradient(bottom, #fafafa, #ddd); /* for firefox 3.6+ */
+
+	padding: 10px 10px 0px 10px;
+	margin: 15px 0 15px 0;
+}
+.oppgaveboks h2 {
+	font-size: 130% !important;
+	font-weight: 500 !important;
+}
+
+
+.litteraturlisteboks {
+	max-width: 600px;
+	background: #fafafa; /* for non-css3 browsers */
+	font-family: georgia, times, serif !important;
+	font-size: 100%;
+	padding: 10px 10px 0px 10px;
+	margin: 15px 0 15px 0;
+}
+
+.litteraturlisteboks h2 {
+	font-size: 130% !important;
+	font-weight: 400 !important;
+	font-family: georgia, times, serif !important;
+}
+.litteraturlisteboks h3 {
+	font-size: 120% !important;
+	font-weight: 400 !important;
+	font-family: georgia, times, serif !important;
+}
+.litteraturlisteboks p {
+	font-size: 90% !important;
+	font-weight: 100 !important;
+	font-family: georgia, times, serif !important;
+}
+
+
+.kupp-module-menu {
+	float: right;
+	/* margin-right: 200px !important; */
+	margin-left: 10px !important;
+}
+
+ul.kupp-module-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #fafafa;
+	font-size: 110%;
+	border: 1px solid #d1d1d1;
+	border-radius: 3px;
+}
+
+.kupp-module-menu li a {
+  display: block;
+  color: #555;
+  padding: 3px 0 3px 16px !important;
+  text-decoration: none;
+}
+
+.kupp-module-menu li a:hover {
+  background-color: #ddd;
+  color: #000;
+	padding: 3px 0 3px 16px !important;
+}
+
+.kupp-module-menu li {
+	padding: 0px !important;
+	text-align: left;
+	border-bottom: 1px solid #fff;
+}
+
+.kupp-module-menu li:last-child {
+	border-bottom: none;
+}
+
+.kupp-module-menu .module-home a {
+	font-weight: bold;
+	font-size: 100%;
+	background-color: #0081bd;
+	color: #fff !important;
+}
+.kupp-module-menu .module-home a:hover {
+  background-color: #00515d !important;
+  color: #fff;
+}
+
+.kupp-module-menu li.active-kupp-menu-item {
+	padding: 3px 0px 3px 16px !important;
+  background-color: #444 !important;
+  color: white !important;
+}
+
+
+.metatekstbox {
+	width: 250px;
+	float: right;
+	border: 1px solid #d1d1d1;
+	border-radius: 3px;
+}
+
+
+/*
+* Klinisk specific styles
+*/
+
+.klinisk-genral-table {
+	width: 600px;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+.klinisk-genral-table td, .klinisk-genral-table th { 
+	border: 1px solid #ddd;
+	padding: 12px 8px 12px 8px !important;
+}
+
+.klinisk-genral-table p {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.klinisk-genral-table td {
+	font-size: 90% !important;
+}
+
+#klinisk-modul-oversikt-boks .menu-block {
+	min-height: 50px !important;
+	
+}
+#klinisk-modul-oversikt-boks h4, #klinisk-modul-oversikt-boks p {
+	padding-left: 60px !important;
+}
+
+#klinisk-modul-oversikt-boks h4 {
+	min-height: 60px !important;
+	margin-top: 5px !important;
+}
+#klinisk-modul-oversikt-boks p {
+	margin-top: -45px !important;
+}
+
+#klinisk-modul-oversikt-boks h4.settings {
+	background: url("https://www.usit.uio.no/om/organisasjon/bnt/dml/aktiviteter/mooc-klinisk-helse/admin/grafisk/css-images/forside/settings.svg") 0 0 no-repeat;	
+	background-size: 50px 50px;
+}
+#klinisk-modul-oversikt-boks h4.sverre {
+	background: url("https://www.usit.uio.no/om/organisasjon/bnt/dml/aktiviteter/mooc-klinisk-helse/admin/grafisk/css-images/forside/sverre.svg") 0 0 no-repeat;	
+	background-size: 50px 50px;
+}
+#klinisk-modul-oversikt-boks h4.vitals {
+	background: url("https://www.usit.uio.no/om/organisasjon/bnt/dml/aktiviteter/mooc-klinisk-helse/admin/grafisk/css-images/forside/vitals.svg") 0 0 no-repeat;	
+	background-size: 50px 50px;
+}
+#klinisk-modul-oversikt-boks h4.settings {
+	background: url("https://www.usit.uio.no/om/organisasjon/bnt/dml/aktiviteter/mooc-klinisk-helse/admin/grafisk/css-images/forside/settings.svg") 0 0 no-repeat;	
+	background-size: 50px 50px;
+}
+#klinisk-modul-oversikt-boks h4.forverring {
+	background: url("https://www.usit.uio.no/om/organisasjon/bnt/dml/aktiviteter/mooc-klinisk-helse/admin/grafisk/css-images/forside/forverring.svg") 0 0 no-repeat;	
+	background-size: 50px 50px;
+}
+#klinisk-modul-oversikt-boks h4.undersokelse {
+	background: url("https://www.usit.uio.no/om/organisasjon/bnt/dml/aktiviteter/mooc-klinisk-helse/admin/grafisk/css-images/forside/undersokelse.svg") 0 0 no-repeat;	
+	background-size: 50px 50px;
+}
+#klinisk-modul-oversikt-boks h4.dybdeovelser {
+	background: url("https://www.usit.uio.no/om/organisasjon/bnt/dml/aktiviteter/mooc-klinisk-helse/admin/grafisk/css-images/forside/dybdeovelser.svg") 0 0 no-repeat;	
+	background-size: 50px 50px;
+}
+
+#module-links-menulist {
+	display: inline;
+}
+#module-links-menulist ul {
+	height: 50px;
+	width: 250px;
+}
+
+#module-links-menulist li {
+	width: 50px;
+	height: 50px;
+}
+
+#kursoppsett tr:nth-child(even) { background-color: #d7f2ff; }
+#kursoppsett tr:hover { background-color: #ddd; }
+
+#kursoppsett th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#klinisk-module-menu {
+	height: 50px !important;
+	width: 250px !important;
+	font-size: 0px;	
+}
+
+#klinisk-module-menu li {
+	background: url("https://www.usit.uio.no/om/organisasjon/bnt/dml/aktiviteter/mooc-klinisk-helse/admin/grafisk/css-images/sidemeny/module-icons-sprite.svg");
+	width: 36px;
+	height: 40px;
+	margin-right: 3px;
+	background-size: 220px 220px; 
+	display: inline-block;
+	padding: 0px !important;
+}
+
+#klinisk-module-menu li.klinisk-uke0 {
+	background-position: -1px -107px;
+}
+#klinisk-module-menu li.klinisk-completed-uke0:hover {
+	background-position: -1px -29px;
+}
+#klinisk-module-menu li.klinisk-completed-uke0 {
+	background-position: -1px -70px;
+}
+#klinisk-module-menu li.klinisk-active-uke0 {
+	background-position: -1px -29px;
+}
+
+#klinisk-module-menu li.klinisk-uke1 {
+	background-position: -37px -107px;
+}
+#klinisk-module-menu li.klinisk-completed-uke1:hover {
+	background-position: -37px -29px;
+}
+#klinisk-module-menu li.klinisk-completed-uke1 {
+	background-position: -37px -70px;
+}
+#klinisk-module-menu li.klinisk-active-uke1 {
+	background-position: -37px -29px;
+}
+#klinisk-module-menu li.klinisk-inactive-uke1 {
+	background-position: -37px -150px;
+}
+
+#klinisk-module-menu li.klinisk-uke2 {
+	background-position: -73px -107px;
+}
+#klinisk-module-menu li.klinisk-completed-uke2:hover {
+	background-position: -73px -29px;
+}
+#klinisk-module-menu li.klinisk-completed-uke2 {
+	background-position: -73px -70px;
+}
+#klinisk-module-menu li.klinisk-active-uke2 {
+	background-position: -73px -29px;
+}
+#klinisk-module-menu li.klinisk-inactive-uke2 {
+	background-position: -73px -150px;
+}
+
+#klinisk-module-menu li.klinisk-uke3 {
+	background-position: -109px -107px;
+}
+#klinisk-module-menu li.klinisk-completed-uke3:hover {
+	background-position: -109px -29px;
+}
+#klinisk-module-menu li.klinisk-completed-uke3 {
+	background-position: -109px -70px;
+}
+#klinisk-module-menu li.klinisk-active-uke3 {
+	background-position: -109px -29px;
+}
+#klinisk-module-menu li.klinisk-inactive-uke3 {
+	background-position: -109px -150px;
+}
+
+#klinisk-module-menu li.klinisk-uke4 {
+	background-position: -145px -107px;
+}
+#klinisk-module-menu li.klinisk-completed-uke4:hover {
+	background-position: -145px -29px;
+}
+#klinisk-module-menu li.klinisk-completed-uke4 {
+	background-position: -145px -70px;
+}
+#klinisk-module-menu li.klinisk-active-uke4 {
+	background-position: -145px -29px;
+}
+#klinisk-module-menu li.klinisk-inactive-uke4 {
+	background-position: -145px -150px;
+}
+
+#klinisk-module-menu li.klinisk-uke5 {
+	background-position: -181px -107px;
+}
+#klinisk-module-menu li.klinisk-completed-uke5:hover {
+	background-position: -181px -29px;
+}
+#klinisk-module-menu li.klinisk-completed-uke5 {
+	background-position: -181px -70px;
+}
+#klinisk-module-menu li.klinisk-active-uke5 {
+	background-position: -181px -29px;
+}
+#klinisk-module-menu li.klinisk-inactive-uke5 {
+	background-position: -181px -150px;
+}
+
+
+#klinisk-module-menu li a {
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+}
+
+
+#klinisk-module-menu, .klinisk-page-menu {
+	/* margin-right: 200px !important; */
+	margin-left: 10px !important;
+}
+
+ul.klinisk-page-menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 250px;
+	background-color: #fafafa;
+	font-size: 110%;
+	border: 1px solid #d1d1d1;
+	border-radius: 3px;
+}
+
+.klinisk-page-menu li a {
+	display: block;
+	color: #555;
+	padding: 3px 0 3px 16px !important;
+	text-decoration: none;
+}
+
+.klinisk-page-menu li a:hover {
+	background-color: #ddd;
+ 	color: #000;
+	padding: 3px 0 3px 16px !important;
+}
+
+.klinisk-page-menu li {
+	padding: 0px !important;
+	text-align: left;
+	border-bottom: 1px solid #fff;
+}
+
+.klinisk-page-menu li:last-child {
+	border-bottom: none;
+}
+
+
+
+.klinisk-page-menu li.active-klinisk-menu-item-week-0 {
+	background-color: #333 !important;
+}
+.klinisk-page-menu li.active-klinisk-menu-item-week-1 {
+	background-color: #8bc43f !important;
+}
+.klinisk-page-menu li.active-klinisk-menu-item-week-2 {
+	background-color: #00adef !important;
+}
+.klinisk-page-menu li.active-klinisk-menu-item-week-3 {
+	background-color: #c0161b !important;
+}
+.klinisk-page-menu li.active-klinisk-menu-item-week-4 {
+	background-color: #f68e21 !important;
+}
+.klinisk-page-menu li.active-klinisk-menu-item-week-5 {
+	background-color: #6f106e !important;
+}
+
+.klinisk-page-menu li.active-klinisk-menu-item-week-0,
+.klinisk-page-menu li.active-klinisk-menu-item-week-1,
+.klinisk-page-menu li.active-klinisk-menu-item-week-2,
+.klinisk-page-menu li.active-klinisk-menu-item-week-3,
+.klinisk-page-menu li.active-klinisk-menu-item-week-4,
+.klinisk-page-menu li.active-klinisk-menu-item-week-5 {
+	padding: 3px 0px 3px 16px !important;
+	color: white !important;
+}
+
+.klinisk-page-menu li.active-klinisk-menu-item-week-0 li,
+.klinisk-page-menu li.active-klinisk-menu-item-week-1 li,
+.klinisk-page-menu li.active-klinisk-menu-item-week-2 li,
+.klinisk-page-menu li.active-klinisk-menu-item-week-3 li,
+.klinisk-page-menu li.active-klinisk-menu-item-week-4 li,
+.klinisk-page-menu li.active-klinisk-menu-item-week-5 li {
+	padding: 3px 0px 3px 0px !important;
+	background-color: #fafafa !important;
+	color: #333 !important;
+}
+
+.klinisk-page-menu li.active-klinisk-menu-item-week-0 ul,
+.klinisk-page-menu li.active-klinisk-menu-item-week-1 ul,
+.klinisk-page-menu li.active-klinisk-menu-item-week-2 ul,
+.klinisk-page-menu li.active-klinisk-menu-item-week-3 ul,
+.klinisk-page-menu li.active-klinisk-menu-item-week-4 ul,
+.klinisk-page-menu li.active-klinisk-menu-item-week-5 ul {
+	margin: 0px 0px -3px -16px !important;
+	background-color: #fafafa !important;
+}
+
+
+.klinisk-page-menu li li.active-klinisk-menu-item-week-0 {
+	padding: 3px 0px 3px 25px !important;
+	background-color: #333 !important;
+	color: white !important;
+}
+.klinisk-page-menu li li.active-klinisk-menu-item-week-1 {
+	padding: 3px 0px 3px 25px !important;
+	background-color: #8bc43f !important;
+	color: white !important;
+}
+.klinisk-page-menu li li.active-klinisk-menu-item-week-2 {
+	padding: 3px 0px 3px 25px !important;
+	background-color: #00adef !important;
+	color: white !important;
+}
+.klinisk-page-menu li li.active-klinisk-menu-item-week-3 {
+	padding: 3px 0px 3px 25px !important;
+	background-color: #c0161b !important;
+	color: white !important;
+}
+.klinisk-page-menu li li.active-klinisk-menu-item-week-4 {
+	padding: 3px 0px 3px 25px !important;
+	background-color: #f68e21 !important;
+	color: white !important;
+}
+.klinisk-page-menu li li.active-klinisk-menu-item-week-5 {
+	padding: 3px 0px 3px 25px !important;
+	background-color: #6f106e !important;
+	color: white !important;
+}
+
+
+
+.klinisk-page-menu li ul {
+	width: 250px;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+.klinisk-page-menu li li a {
+	display: block;
+	color: #555;
+	padding: 3px 0 3px 25px !important;
+	text-decoration: none;
+}
+
+.klinisk-page-menu li li a:hover {
+	background-color: #ddd;
+ 	color: #000;
+	padding: 3px 0 3px 25px !important;
+}
+
+.klinisk-page-menu li li {
+	font-size: 90% !important;
+	list-style-type: none !important;
+	padding: 0px !important;
+	text-align: left;
+	border-bottom: 1px solid #fff;
+}
+
+.klinisk-page-menu li li:last-child {
+	border-bottom: none;
+}
