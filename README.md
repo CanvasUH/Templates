@@ -19,3 +19,5 @@ Dersom et html element med id="kupp-module-menu" er definert, blir innholdseleme
 
 ![alt text](https://github.com/Canvas-JS-CSS-Workshop/Templates/blob/master/images/kuppmodulmeny.png)
 
+## Caption og info-button
+captioninfobutton.js og .css: Legger til knapp for admin/lærere som brukes til å sette inn dummy-bilde i editor. Bildet har bildetekst og er satt til høyrejustert. Legger også til knapp for infoboks, stylet ihht. University of Birmingham-CSS.
