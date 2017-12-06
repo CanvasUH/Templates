@@ -7,5 +7,5 @@ Dere kan finne api'et og util funksjoner som blir brukt i matematikkMOOC her:
 [API javascript](https://github.com/matematikk-mooc/frontend/blob/master/src/js/api/api.js)
 [UTIL javascript](https://github.com/matematikk-mooc/frontend/blob/master/src/js/modules/util.js)
 
-listmodulesanditems.js og css lister ut moduler og innholdselementer dersom <div id="mittdesign"/> er definert på siden.
+listmodulesanditems.js og css lister ut moduler og innholdselementer dersom <code><div id="mittdesign"/></code> er definert på siden.
 
